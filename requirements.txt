@@ -1,0 +1,6 @@
+# Install PyTorch first (see README, step 3), then: pip install -r requirements.txt
+nnunetv2==2.8.1          # the version the model was trained with
+huggingface_hub>=0.34    # download of the weights
+numpy>=1.24
+pillow
+scikit-image>=0.19.3
